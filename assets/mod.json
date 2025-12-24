@@ -1,0 +1,12 @@
+{
+    "name": "Unlocker",
+    "author": "557",
+    "version": "2025.12.1",
+    "description": "Unlock some things.",
+    "iconPath": "",
+    "GUID": "UNLOCKER",
+    "RepoUrl": "https://github.com/KKW557/WorldBoxUnlocker",
+    "Dependencies": [],
+    "OptionalDependencies": [],
+    "IncompatibleWith": []
+}

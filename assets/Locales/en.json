@@ -1,0 +1,14 @@
+﻿{
+  "Unlocker Config Other": "Other Settings",
+  "Unlocker Config Always Debug": "Always Show Debug Menu",
+  "Unlocker Config Always Debug Description": "Literally.",
+  "Unlocker Config Unlocker": "Unlocker",
+  "Unlocker Config Unlock All Achievements": "Unlock All Achievements",
+  "Unlocker Config Unlock All Achievements Description": "This operation cannot be undone!",
+  "Unlocker Config Clear All Achievements": "Clear All Achievements",
+  "Unlocker Config Clear All Achievements Description": "This operation cannot be undone!",
+  "Unlocker Config Unlock All Assets": "Unlock All Assets",
+  "Unlocker Config Unlock All Assets Description": "Not include achievements,\nThis operation cannot be undone!",
+  "Unlocker Config Clear All Assets": "Clear All Assets",
+  "Unlocker Config Clear All Assets Description": "Not include achievements,\nThis operation cannot be undone!"
+}

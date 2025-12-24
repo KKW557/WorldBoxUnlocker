@@ -1,0 +1,14 @@
+﻿{
+  "Unlocker Config Other": "其他设置",
+  "Unlocker Config Always Debug": "始终显示调试菜单",
+  "Unlocker Config Always Debug Description": "字面意思。",
+  "Unlocker Config Unlocker": "解锁器",
+  "Unlocker Config Unlock All Achievements": "解锁全部成就",
+  "Unlocker Config Unlock All Achievements Description": "此操作不可撤销！",
+  "Unlocker Config Clear All Achievements": "清除全部成就",
+  "Unlocker Config Clear All Achievements Description": "此操作不可撤销！",
+  "Unlocker Config Unlock All Assets": "解锁全部资产",
+  "Unlocker Config Unlock All Assets Description": "不包含成就，\n此操作不可撤销！",
+  "Unlocker Config Clear All Assets": "清除全部资产",
+  "Unlocker Config Clear All Assets Description": "不包含成就，\n此操作不可撤销！"
+}
