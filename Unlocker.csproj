@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <RootNamespace>Unlocker</RootNamespace>
+        <RootNamespace>KKW557.WorldBox.Unlocker</RootNamespace>
         <AssemblyName>Unlocker</AssemblyName>
         <TargetFramework>net48</TargetFramework>
         <ImplicitUsings>disable</ImplicitUsings>

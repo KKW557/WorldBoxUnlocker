@@ -1,7 +1,7 @@
 ﻿using NeoModLoader.api;
 using UnityEngine.Scripting;
 
-namespace Unlocker;
+namespace KKW557.WorldBox.Unlocker;
 
 public class Mod : BasicMod<Mod>
 {
