@@ -4,6 +4,7 @@
         <OutputType>Library</OutputType>
         <RootNamespace>KKW557.WorldBox.Unlocker</RootNamespace>
         <AssemblyName>Unlocker</AssemblyName>
+        <Version>2025.12.4</Version>
         <TargetFramework>net48</TargetFramework>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>disable</Nullable>

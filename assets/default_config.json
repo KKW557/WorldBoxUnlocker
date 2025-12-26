@@ -4,25 +4,25 @@
       "Id": "Unlocker Config Unlock All Achievements",
       "Type": "SWITCH",
       "BoolVal": false,
-      "Callback": "Mod:UnlockAllAchievements"
+      "Callback": "UnlockerMod:UnlockAllAchievements"
     },
     {
       "Id": "Unlocker Config Clear All Achievements",
       "Type": "SWITCH",
       "BoolVal": false,
-      "Callback": "Mod:ClearAllAchievements"
+      "Callback": "UnlockerMod:ClearAllAchievements"
     },
     {
       "Id": "Unlocker Config Unlock All Assets",
       "Type": "SWITCH",
       "BoolVal": false,
-      "Callback": "Mod:UnlockAllAssets"
+      "Callback": "UnlockerMod:UnlockAllAssets"
     },
     {
       "Id": "Unlocker Config Clear All Assets",
       "Type": "SWITCH",
       "BoolVal": false,
-      "Callback": "Mod:ClearAllAssets"
+      "Callback": "UnlockerMod:ClearAllAssets"
     }
   ],
   "Unlocker Config Other": [
@@ -30,7 +30,7 @@
       "Id": "Unlocker Config Always Debug",
       "Type": "SWITCH",
       "BoolVal": false,
-      "Callback": "Mod:AlwaysDebugCallback"
+      "Callback": "UnlockerMod:AlwaysDebugCallback"
     }
   ]
 }
