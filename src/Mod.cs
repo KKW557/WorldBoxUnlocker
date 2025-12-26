@@ -3,7 +3,7 @@ using UnityEngine.Scripting;
 
 namespace KKW557.WorldBox.Unlocker;
 
-public class UnlockerMod : BasicMod<UnlockerMod>
+public class Mod : BasicMod<Mod>
 {
     protected override void OnModLoad()
     {
@@ -64,7 +64,7 @@ public class UnlockerMod : BasicMod<UnlockerMod>
 
     private static void _post(string action, string target)
     {
-        UnlockerMod.Instance.GetConfig()["Unlocker Config Unlocker"][$"Unlocker Config {action} All {target}"].SetValue(false, true);
-        UnlockerMod.LogInfo($"{action}ed all {target}");
+        Mod.Instance.GetConfig()["Unlocker Config Unlocker"][$"Unlocker Config {action} All {target}"].SetValue(false, true);
+        Mod.LogInfo($"{action}ed all {target}");
     }
 }
