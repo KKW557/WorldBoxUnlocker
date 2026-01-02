@@ -11,29 +11,33 @@
         <LangVersion>11</LangVersion>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <WorldBoxDir>..\..\worldbox\</WorldBoxDir>
+    </PropertyGroup>
+
     <ItemGroup>
         <Reference Include="UnityEngine">
-            <HintPath>..\worldbox\worldbox_Data\Managed\UnityEngine.dll</HintPath>
+            <HintPath>$(WorldBoxDir)worldbox_Data\Managed\UnityEngine.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
-            <HintPath>..\worldbox\worldbox_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <HintPath>$(WorldBoxDir)worldbox_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Reference Include="UnityEngine.UI">
-            <HintPath>..\worldbox\worldbox_Data\Managed\UnityEngine.UI.dll</HintPath>
+            <HintPath>$(WorldBoxDir)worldbox_Data\Managed\UnityEngine.UI.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Reference Include="NeoModLoader">
-            <HintPath>..\worldbox\worldbox_Data\StreamingAssets\mods\NeoModLoader.dll</HintPath>
+            <HintPath>$(WorldBoxDir)worldbox_Data\StreamingAssets\mods\NeoModLoader.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Reference Include="Assembly-CSharp">
-            <HintPath>..\worldbox\worldbox_Data\StreamingAssets\mods\NML\Assembly-CSharp-Publicized.dll</HintPath>
+            <HintPath>$(WorldBoxDir)worldbox_Data\StreamingAssets\mods\NML\Assembly-CSharp-Publicized.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Reference Include="Newtonsoft.Json">
-            <HintPath>..\worldbox\worldbox_Data\Managed\Newtonsoft.Json.dll</HintPath>
+            <HintPath>$(WorldBoxDir)worldbox_Data\Managed\Newtonsoft.Json.dll</HintPath>
             <Private>false</Private>
         </Reference>
     </ItemGroup>

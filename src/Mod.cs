@@ -26,7 +26,7 @@ public class Mod : BasicMod<Mod>
             return;
         }
         GameProgress.instance.unlockAllAchievements();
-        _post("Unlock", "Achievements");
+        Action("Unlock", "Achievements");
     }
     
     [Preserve]
@@ -37,7 +37,7 @@ public class Mod : BasicMod<Mod>
             return;
         }
         GameProgress.instance.debugClearAllAchievements();
-        _post("Clear", "Achievements");
+        Action("Clear", "Achievements");
     }
     
     [Preserve]
@@ -48,7 +48,7 @@ public class Mod : BasicMod<Mod>
             return;
         }
         GameProgress.instance.debugUnlockAll();
-        _post("Unlock", "Assets");
+        Action("Unlock", "Assets");
     }
     
     [Preserve]
@@ -59,12 +59,12 @@ public class Mod : BasicMod<Mod>
             return;
         }
         GameProgress.instance.debugClearAll();
-        _post("Clear", "Assets");
+        Action("Clear", "Assets");
     }
 
-    private static void _post(string action, string target)
+    private static void Action(string action, string target)
     {
-        Mod.Instance.GetConfig()["Unlocker Config Unlocker"][$"Unlocker Config {action} All {target}"].SetValue(false, true);
-        Mod.LogInfo($"{action}ed all {target}");
+        Instance.GetConfig()["Unlocker Config Unlocker"][$"Unlocker Config {action} All {target}"].SetValue(false, true);
+        LogInfo($"{action}ed all {target}");
     }
 }
